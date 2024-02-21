@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>{{message}}</div>`,
+  template: `<a href="/.auth/login/aad">Login</a><div>{{message}}</div>`,
 })
 export class AppComponent {
   message = '';
