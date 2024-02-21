@@ -3,10 +3,6 @@
       {
         "route": "/*",
         "allowedRoles": ["admin"]
-      },
-      {
-        "route": "/logout",
-        "redirect": "/.auth/logout"
       }
     ],
     "responseOverrides": {
